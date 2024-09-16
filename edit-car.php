@@ -36,24 +36,7 @@
                header("refresh:1; url=list-car.php");
             ?>
         </div>
-        <!-- <div  id="closeContainer">
-            <button id="closeBtn" style="background: #cacaca; border:none;" > fermer </button>
-        </div> -->
     <?php endif; ?>
 </body>
-<!-- <script>
-    const closeBtn = document.querySelector("#closeBtn")
-    if(closeBtn !== null ){
-        closeBtn.style.cursor = "pointer"
-        
-        closeBtn.addEventListener("click", ()=>{
-            const params= window.location.href.split("?")[1]
-            const id = params.split("&")[0]
-            window.location.href = "edit-car.php?"+id;
-        })
-
-    }
-
-</script> -->
 
 </html>
